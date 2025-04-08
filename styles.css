@@ -10,7 +10,7 @@
 /* Body Styling - Sets default font, background, and text color */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f7fb; /* Light grayish-blue background */
+    background-color: #e2e3e5 !important; /* Light grayish-blue background */
     color: #333; /* Dark gray text */
 }
 
