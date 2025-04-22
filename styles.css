@@ -116,13 +116,20 @@ nav ul a {
 
 
 /* Card Container - Holds Multiple Cards */
-.card-container {
+/*.card-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 38px; /* Space between cards */
-    margin-top: 50px;
+    /*margin-top: 50px;
+}*/
+.card-container {
+    width: 100%;
+    max-width: 1100px; /* Adjust this width to your liking */
+    margin: 0 auto;
+    padding: 20px;
 }
+
 
 .cars-container .row {
     margin-bottom: 50px;
@@ -176,6 +183,10 @@ nav ul a {
     font-weight: bold;
 }
 
+.card-content img {
+    max-height: 120px;
+    object-fit: contain;
+}
 
 
 /* Statistics & News Sections */
