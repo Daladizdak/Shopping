@@ -185,7 +185,13 @@ nav ul a {
 
 .card-content img {
     max-height: 120px;
+    gap: 38px;
     object-fit: contain;
+}
+
+.card-content buyBtn {
+    padding: 10px 10px;
+    
 }
 
 
